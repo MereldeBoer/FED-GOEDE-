@@ -105,12 +105,11 @@ position: absolute;
 	display: grid;
 	grid-template-columns:1fr 1fr;
 	gap:1em;
-	border: 3px solid hotpink;
 	width: 100vw;
 	
 }
 .columnjorisendraak img {
-	width: 100%;
+	width: 80%;
 	height: auto;
 }
 
@@ -141,6 +140,9 @@ ul{
 	display: flex;
 	flex-direction:column;
 
+}
+.downloadapp img{
+	width: 100%;
 }
 /* Atracties */
 
