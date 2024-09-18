@@ -1,0 +1,186 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+	--eftelingkleur:#b71234; 
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+
+
+/* Main joris en de draak*/
+
+/* p en htjes*/
+
+p{
+	font-family:"ff-ernestine-pro",sans-serif;
+	line-height: 1.75;
+	font-size: inherit;
+	
+
+	
+}
+h2{
+	font-family:"ff-ernestine-pro",sans-serif;
+	font-size: 1em;
+	line-height: 2.5;
+	margin-top: 2em;
+	margin-bottom: 20px;
+	color:var(--eftelingkleur);
+}
+h3{
+	font-family:"ff-ernestine-pro",sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1,5;
+	color:var(--eftelingkleur);
+
+}
+section{
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+	
+	
+}
+/* joris en de draak vidoe met tekst er over heen */
+h1{
+	font-family:"wreath",sans-serif;
+	color: white;
+	font-size: 2em;
+	line-height: 1.2;
+	margin-bottom: 20px;
+
+}
+#myVideo {
+    width: 100%;
+    height: auto;
+}
+
+.tekstoverlay{
+left:1em; right:1em; top:1em; bottom:1em;
+display: flex;
+justify-content: center;
+flex-direction: column;
+z-index: 13;
+position: absolute;
+
+
+}
+#overlay{
+	font-family:"ff-ernestine-pro",sans-serif;
+	color: white;
+	line-height: 1.75;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+/* content joris en de draak*/
+.columnjorisendraak{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	gap:1em;
+	border: 3px solid hotpink;
+	width: 100vw;
+	
+}
+.columnjorisendraak img {
+	width: 100%;
+	height: auto;
+}
+
+.columnjorisendraak img:first-child {
+    grid-column:span 2;
+}
+
+
+
+
+/* youtoube en andere content*/
+ul{
+	display:grid;
+	grid-template-columns:1fr;
+
+}
+
+
+/* content dat links staat*/
+.linkscontent{
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	text-align:start;	
+}
+/*download app*/
+.downloadapp{
+	display: flex;
+	flex-direction:column;
+
+}
+/* Atracties */
+
+.carrousel ul {
+	width: 100%;
+	display: flex;
+	overflow-x: auto;
+	gap: 1em;
+}
+
+.carrousel ul li{
+	width: 100vw;
+	list-style: none;
+}
+
+.carrousel ul li img{
+	width: 17em;
+	border-radius:0.5em;
+
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+/*ErnestineWeb-Bold,verner,
+
+<link rel="stylesheet" href="https://use.typekit.net/isd2gfc.css">*/
+
+
+
+
+
+
+
+/* hulpmiddeltjes.....*/
+
+/* border: 3px solid hotpink;*/
