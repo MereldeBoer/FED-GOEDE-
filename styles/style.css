@@ -18,6 +18,7 @@
 	--color-text:#111;
 	--color-background:#eee;
 	--eftelingkleur:#b71234; 
+	--achtergrond-kleur:#FAFAF7;
 }
 
 
@@ -33,6 +34,9 @@
 /* Main joris en de draak*/
 
 /* p en htjes*/
+body{
+	background-color:var(--achtergrond-kleur);
+}
 
 p{
 	font-family:"ff-ernestine-pro",sans-serif;
@@ -121,20 +125,50 @@ position: absolute;
 
 
 
-/* youtoube en andere content*/
-ul{
-	display:grid;
-	grid-template-columns:1fr;
 
-}
 
 
 /* content dat links staat*/
+.goedomteweten{
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	text-align:start;
+	margin-left: 2;
+	
+
+}
+/*border-radius: 5px;
+    border: 2px solid #ede5d5;
+    bottom: 3px;
+    content: '';
+    display: block;
+    left: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+	*/
 .linkscontent{
 	position: relative;
 	display:flex;
 	flex-direction:column;
 	text-align:start;	
+}
+	
+.goedomteweten ul{
+	display:grid;
+	grid-template-columns:1fr;
+	border: 2px solid #ede5d5;
+	background-color: white;
+	border-radius: 0.5em ;
+	border: 2px solid #ede5d5;
+	background-color: white;
+	border-radius: 0.5em ;
+	line-height: 2.5;
+	
+
+
+
 }
 /*download app*/
 .downloadapp{
