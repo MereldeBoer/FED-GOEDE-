@@ -207,7 +207,7 @@ position: absolute;
 
 
 /* footer */
-.route{
+footer section{
 	display: flex;
 	align-items: flex-start;
 	background-color:var(--color-background);
