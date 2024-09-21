@@ -42,18 +42,20 @@ body{
 p{
 	font-family:"ff-ernestine-pro",sans-serif;
 	line-height: 1.75;
-	font-size: inherit;
+	font-size: 16px;
+	
+	
 	
 
 	
 }
 h2{
 	font-family:"ff-ernestine-pro",sans-serif;
-	font-size: 1em;
-	line-height: 2.5;
+	font-size: 1.2em;
 	margin-top: 2em;
-	margin-bottom: 20px;
+	margin-bottom: 0.2em;
 	color:var(--eftelingkleur);
+
 }
 h3{
 	font-family:"ff-ernestine-pro",sans-serif;
@@ -72,11 +74,10 @@ section{
 }
 /* joris en de draak vidoe met tekst er over heen */
 h1{
-	font-family:"wreath",sans-serif;
+	font-family:"ff-ernestine-pro",sans-serif,sans-serif;
+	font-size: 1.5em;
 	color: white;
-	font-size: 2em;
-	line-height: 1.2;
-	margin-bottom: 20px;
+	margin-bottom:-1em;
 
 }
 #myVideo {
@@ -95,13 +96,11 @@ position: absolute;
 
 }
 #overlay{
-	font-family:"ff-ernestine-pro",sans-serif;
+	font-family:"wreath",sans-serif;
 	color: white;
-	line-height: 1.75;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 1em;
+	font-size: 2em;
 	line-height: 1.5;
+	
 }
 
 /* content joris en de draak*/
@@ -221,11 +220,16 @@ footer section{
 	flex-direction: row;
 	margin-top: 0.5em;
 	margin-bottom:0.5em ;
+	list-style-type: none;
 }
 .route li{
 	margin: 1em;
 	font-family:"ff-ernestine-pro",sans-serif ;
 	color: var(--footer-routekleur);
+}
+.route a{
+	text-decoration: none;
+	color:var(--footer-routekleur)
 }
 
 /* Bezoekers met een bepering paginaa */
