@@ -41,10 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  actracties pagina 
-  <img src="readme-images/actracties1.jpg" width="375px" alt="pagina waar je alle actracties ziet die in de efteling bevinden">
-  <img src="readme-images/actracties2.jpg" width="375px" alt="uitbereiding van de actractie pagina">
-  <img src="readme-images/actracties3.jpg" width="375px" alt="uitbereiding van de actractie pagina">
+  Bezoekers met een beperking
+  <img src="readme-images/beperking.PNG" width="375px" alt="spagina waar allle informatie staat voor als je een beprking hebt en naar de EFteling gaat">
+
+  
+  
 
 
 
@@ -91,6 +92,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - tabindex groter dan 0
  - kop elementen niet weergegeven in aflopende volgorde
  -afbeeldingen missen alternatieve teksten
+
+ Bezoekers met een beperking pagina:
+ - deze pagina is iest meer toegangelijk
+ - op deze pagina heb je een optie dat je snel naar een kopje kan gaan
  
 
  
@@ -106,13 +111,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsbeperking.jpg" width="375px" alt="breakdown van de hele pagina van de beprking schema">
+
+<img src="readme-images/breakdownschetsjoris.jpg" width="375px" alt="breakdown van de hele pagina van de beprking schema">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/detail.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
@@ -159,7 +165,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Structuur in HTML vinden was wel goed alleen het structuur vinden in CSS was soms wat lastiger. Ook er voor zorgen van onodig veel code vind ik moeilijk. 
+
+  - punt 1: Tekst over de vidoe in het midden
+  <img src="readme-images/tekstopvideo.jpg" width="375px" alt="kreeg de tekst niet in het midden">
+  
+  - punt 2: gebruik van grid
+   <img src="readme-images/gridjoris.jpg" width="375px" alt="grid gebruiken, lukte niet om netjes onder elkaar te krijgen omdat er verschil was in grootte van img">
+
+  - punt 3: courassal maken
+   <img src="readme-images/carasoul.jpg" width="375px" alt="had het nog nooit gebruikt dus was effe uitzoeken hoe het moet">
+
+
+
+  
 
 
   ### Agenda voor meeting
@@ -175,9 +194,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - read.me bijwerken
+  - toegankelijkheidstest
+  - koppeling lettertypes
+  - div om video weg
+  - alt teksten goed
+  - h1 veranderen naar Joris en de draak
+  - detail hoeft niet in article
+
 - ...
 
 </details>
