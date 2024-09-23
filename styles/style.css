@@ -340,6 +340,32 @@ footer section{
 	margin: 0.5em;
 	width: 8em;
 }
+.prijzen{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	text-align:left;
+
+
+}
+
+.prijzen ul li{
+	list-style: none;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	color: var(--footer-vragenkleur);
+	
+	
+	
+}
+.prijzen a{
+	text-decoration: none;
+	color: var(--footer-vragenkleur);
+
+}
+
+
 
 /* Bezoekers met een bepering paginaa */
 .bezoekersbeperking h1{
