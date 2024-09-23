@@ -328,6 +328,18 @@ footer section{
 	
 
 }
+.media{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+
+	
+}
+.media img{
+	margin: 0.5em;
+	width: 8em;
+}
 
 /* Bezoekers met een bepering paginaa */
 .bezoekersbeperking h1{
@@ -357,6 +369,7 @@ position: absolute;
 	line-height: 2.5;
 
 }
+
 
 /* Header */
 /* main */
