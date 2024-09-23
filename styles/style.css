@@ -20,6 +20,7 @@
 	--eftelingkleur:#b71234; 
 	--achtergrond-kleur:#FAFAF7;
 	--footer-routekleur:#737373;
+	--footer-vragenkleur:#4d3928 ;
 }
 
 
@@ -134,6 +135,22 @@ position: absolute;
 	text-align:start;
 	margin-left: 1em;
 	
+	
+
+}
+
+.goedomteweten ul{
+	display:grid;
+	grid-template-columns:1fr;
+	border: 2px solid #ede5d5;
+	background-color:var(--achtergrond-kleur);
+	border-radius: 0.5em ;
+	line-height: 2.5;
+	
+
+	
+
+
 
 }
 
@@ -145,18 +162,7 @@ position: absolute;
 	text-align:start;	
 }
 	
-.goedomteweten ul{
-	display:grid;
-	grid-template-columns:1fr;
-	border: 2px solid #ede5d5;
-	background-color: white;
-	border-radius: 0.5em ;
-	line-height: 2.5;
-	
 
-
-
-}
 /*download app*/
 .downloadapp{
 	display: flex;
@@ -175,6 +181,9 @@ position: absolute;
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:1em;
 	border-radius: 0.5em;
+	text-decoration: none;
+	font-weight: bold;
+	
 
 
 }
@@ -230,6 +239,31 @@ footer section{
 .route a{
 	text-decoration: none;
 	color:var(--footer-routekleur)
+}
+.vragen{
+	display: flex;
+	justify-content: flex-start;
+
+	
+}
+
+.vragen a{
+	color: var(--footer-vragenkleur);
+	margin-bottom: 2em;
+	font-size: 14px;
+	
+	
+}
+.vragen p{
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-size: 14px;
+}
+.vragen span{
+	color: var(--footer-vragenkleur);
+	font-weight: bold;
+	font-size: 14px;
+
 }
 
 /* Bezoekers met een bepering paginaa */
