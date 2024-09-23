@@ -185,6 +185,14 @@ position: absolute;
 	flex-direction:column;
 	text-align:start;	
 }
+.linkscontent h3{
+	color: var(--footer-vragenkleur);
+	font-size: 1em;
+	font-weight: bold;
+	
+
+}
+
 	
 
 /*download app*/
@@ -298,7 +306,7 @@ footer section{
 }
 .uitklap details{
 	display: flex;
-	align-items: column;
+
 	text-align:left;
 	margin-top:  2em;
 	
@@ -368,6 +376,7 @@ footer section{
 
 
 /* Bezoekers met een bepering paginaa */
+
 .bezoekersbeperking h1{
 left:1em; right:1em; top:1em; bottom:1em;
 display: flex;
@@ -375,18 +384,24 @@ justify-content: center;
 flex-direction: column;
 z-index: 13;
 position: absolute;
+font-family:"wreath",sans-serif;
+font-size: 1.5em;
 
 }
 .bezoekersbeperking img{
 	width: 100%;
     height: auto;
 	position: relative;
+	margin-top: 2.5em;
+	object-fit: cover;
+
 
 }
-.Gasnelnaarlijst{
-	display: grid;
-	grid-template-columns:1fr;
 
+
+.Gasnelnaarlijst{
+	display: flex;
+	text-align: left;
 	border: 2px solid #ede5d5;
 	border-radius: 0.5em ;
 	border: 2px solid #ede5d5;
@@ -395,10 +410,52 @@ position: absolute;
 	line-height: 2.5;
 
 }
+.Gasnelnaarlijst h2{
+	font-size: 16px;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.Gasnelnaarlijst a{
+	color: var(--footer-vragenkleur);
+}
 
 
-/* Header */
-/* main */
+
+
+.atractietoegang img{
+	width: 100%;
+    height: auto;
+	
+
+}
+.atractietoegang div{
+left:1em; right:1em; top:1em; bottom:1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+z-index: 13;
+position: absolute;
+
+}
+.atractietoegang h3{
+	color: var(--color-background);
+	font-size: 1.5em;
+}
+.atractietoegang a{
+	background-color: transparent;
+	border:2px solid white;
+	color: var(--color-background);
+	font-family:"ff-ernestine-pro",sans-serif;
+	padding:1em;
+	border-radius: 0.5em;
+	margin-left: 8.5em;
+	margin-right: 8.5em;
+	text-decoration: none;
+	
+}
+
+
+
 /* foto met tekst */
 
 
