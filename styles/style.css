@@ -13,6 +13,7 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
 	/* startje */
 	--color-text:#111;
@@ -30,8 +31,30 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-
-
+/* header*/
+header{
+	background-color: var(--color-background);
+	height: 3em;             
+    width: 100%;  
+	display: flex;  
+	align-items: center;       
+    justify-content: flex-start; 
+    padding: 0 1em;
+	position: fixed;
+	z-index: 1000;                           
+    top: 0;                                      
+    left: 0;                                     
+	
+ 
+    
+	
+}
+header img{ 
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	width: 6em;                /* Afbeelding breedte */
+    height: auto;  
+}
 
 /* Main joris en de draak*/
 
@@ -84,6 +107,7 @@ h1{
 #myVideo {
     width: 100%;
     height: auto;
+	margin-top: 2.5em;
 }
 
 .tekstoverlay{
