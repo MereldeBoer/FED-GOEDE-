@@ -192,8 +192,21 @@ position: absolute;
 	
 
 }
+.linkscontent img{
+	margin: 0.5em;
+}
+.linkscontent a{
+	background-color: white;
+	border:2px solid #ede5d5;
+	color: var(--eftelingkleur);
+	font-family:"ff-ernestine-pro",sans-serif;
+	padding:0.5em;
+	border-radius: 0.5em;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 18em;
 
-	
+}	
 
 /*download app*/
 .downloadapp{
@@ -478,6 +491,7 @@ position: absolute;
 	width: 26em;
 	
 }
+
 .carrousel-2 a{
 	background-color: white;
 	border:2px solid #ede5d5;
