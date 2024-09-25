@@ -37,13 +37,15 @@ header{
 	height: 3em;             
     width: 100%;  
 	display: flex;  
-	align-items: center;       
-    justify-content: flex-start; 
+	align-items: center;        
     padding: 0 1em;
 	position: fixed;
 	z-index: 1000;                           
     top: 0;                                      
-    left: 0;                                     
+    left: 0;  
+  	justify-content:space-between;
+  	position:sticky;
+
 	
  
     
@@ -52,9 +54,59 @@ header{
 header img{ 
 	margin-top: 1.5em;
 	margin-bottom: 1em;
-	width: 6em;                /* Afbeelding breedte */
+	width: 6em;                
     height: auto;  
 }
+header button {
+	padding:.5em;
+	
+	/* icon en tekst met gap-je naast elkaar */
+	display:flex;
+	align-items:center;
+	gap:.25em;
+	
+	/* standaard styling aanpassen */
+	appearance:none;
+	background-color:transparent;
+	border:none;
+	border-radius:.25em; 
+	font:inherit;
+	text-align:center;
+	color:var(--button-color);
+  }
+  
+  header button img {
+	width: 1em;
+	margin-bottom: 1.3em;
+  }
+  nav button {
+	justify-self:start;
+   }
+   nav {
+	padding:1em;
+	
+	display:grid;
+	align-content:start;
+	gap:1em;
+	
+	background-image:var(--menu-gradient);
+	
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color: var(--color-background);
+	translate:100% 0%;
+	transition:translate .3s;
+}
+nav.toonMenu {
+	translate:0% 0%;
+  }
+
+  
+	
+
 
 /* Main joris en de draak*/
 
@@ -107,7 +159,7 @@ h1{
 #myVideo {
     width: 100%;
     height: auto;
-	margin-top: 2.5em;
+	
 }
 
 .tekstoverlay{
