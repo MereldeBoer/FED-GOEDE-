@@ -488,10 +488,12 @@ position: absolute;
 	width: 100vw;
 	list-style: none;
 }
-
-.carrousel-2 ul li img{
+.carrousel-2 img{
 	width: 26em;
-	
+}
+.carrousel-2 li:first-child img {
+	width: 26em;
+	margin-left: -2.5em;
 }
 
 .carrousel-2 a{
