@@ -362,6 +362,10 @@ footer section{
 	font-size: 14px;
 
 }
+.uitklap{
+	display: flex;
+	text-align: start;
+}
 .uitklap strong{
 	color: var(--footer-vragenkleur);
 	font-size: 14px;
@@ -458,7 +462,6 @@ font-size: 2em;
 	width: 100%;
     height: 17em;
 	position: relative;
-	margin-top: 2.5em;
 	object-fit: cover;
 	filter: brightness(0.7);
 
