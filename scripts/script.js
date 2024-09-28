@@ -5,9 +5,12 @@ const videojoris = document.getElementById('myVideo');
 let openButton = document.querySelector("header > button");
 let sluitButton = document.querySelector("nav button");
 
-videojoris.autoplay = true;
-videojoris.muted = true;
-videojoris.loop = true;
+if (videojoris) {
+    videojoris.autoplay = true;
+    videojoris.muted = true;
+    videojoris.loop = true;
+}
+
 
 openButton.onclick = openMenu;
 sluitButton.onclick = sluitMenu;

@@ -99,6 +99,7 @@ header button {
 	background-color: var(--color-background);
 	translate:100% 0%;
 	transition:translate .3s;
+	overflow-y: auto;
 }
 nav.toonMenu {
 	translate:0% 0%;
