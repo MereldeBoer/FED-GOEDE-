@@ -336,6 +336,50 @@ position: absolute;
 
 
 }
+/* Kaart*/
+
+
+.kaart {
+	width: 100%;
+	position: relative;
+}
+
+
+.img-div {
+	margin-left: -3em;
+    width:100vw ; /* Zorg ervoor dat de div de volledige breedte gebruikt */
+    overflow: scroll; /* Schakelt scrollen in */
+    position: relative; /* Positionering voor eventuele absolute elementen binnenin */
+    height: 550px; /* Zet een vaste hoogte voor het scrollbare gebied */
+  
+}
+
+	
+
+
+#efteling-map {
+    width: auto; /* Laat de afbeelding zijn verhoudingen behouden */
+    height: auto; /* Laat de afbeelding zijn verhoudingen behouden */
+    max-width: none; /* Voorkom dat de afbeelding wordt beperkt door max-width */
+}
+.info {
+    display: none; /* Standaard verbergen */
+    position: absolute; /* Absolute positionering voor overlay */
+    bottom: 10px; /* Plaatsing onderaan de kaart */
+    left: 10px; /* Plaatsing vanaf de linkerkant */
+    background-color:var(--color-background); /* Lichte achtergrond met transparantie */
+    padding: 10px;
+    width: calc(100% - 20px); /* Breedte minus padding */
+    z-index: 10; /* Zorg ervoor dat de overlay boven de kaart staat */
+	
+}
+
+.info img {
+    max-width: 100px; /* Stel een maximale breedte in voor de afbeelding */
+    height: auto;
+    margin-right: 10px; /* Ruimte tussen afbeelding en tekst */
+}
+
 /* Atracties */
 
 .carrousel ul {
