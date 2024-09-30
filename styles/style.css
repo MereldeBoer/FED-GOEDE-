@@ -15,14 +15,41 @@
 /*********************/
 
 :root {
-	/* startje */
+	color-scheme:light;
 	--color-text:#111;
 	--color-background:white;
 	--eftelingkleur:#b71234; 
 	--achtergrond-kleur:#FAFAF7;
 	--footer-routekleur:#737373;
 	--footer-vragenkleur:#4d3928 ;
+	--color-border:#ede5d5;
+	
+	
 }
+
+:root:has([value="light"]:checked) {
+	color-scheme:light;
+	--color-text:#111;
+	--color-background:white;
+	--eftelingkleur:#b71234; 
+	--achtergrond-kleur:#FAFAF7;
+	--footer-routekleur:#737373;
+	--footer-vragenkleur:#4d3928 ;
+	--color-border:#ede5d5;
+}
+
+:root:has([value="dark"]:checked) {
+	color-scheme:dark;
+	--color-text:#111;
+	--color-background:black;
+	--eftelingkleur:white; 
+	--achtergrond-kleur:#11182A;
+	--footer-routekleur:white;
+	--footer-vragenkleur:white ;
+	--color-border:#ede5d5;
+}
+
+
 
 
 
@@ -40,22 +67,38 @@ header{
 	align-items: center;        
     padding: 0 1em;
 	position: fixed;
-	z-index: 1000;                           
+	z-index: 200;                           
     top: 0;                                      
     left: 0;  
   	justify-content:space-between;
-  	position:sticky;
+  	
 
-	
- 
+
     
 	
 }
+header a{
+	z-index: 200;
+
+}
+header a:nth-of-type(2) img {
+	width: 1em;
+	margin-left: 10em;
+
+	
+	
+
+	
+	
+  }
+
 header img{ 
 	margin-top: 1.5em;
 	margin-bottom: 1em;
 	width: 6em;                
     height: auto;  
+	
+	
 }
 header button {
 	padding:.5em;
@@ -73,14 +116,17 @@ header button {
 	font:inherit;
 	text-align:center;
 	color:var(--button-color);
+	z-index: 200;
   }
   
   header button img {
 	width: 1em;
 	margin-bottom: 1.3em;
+	
   }
   nav button {
 	justify-self:start;
+	
    }
    nav {
 	padding:1em;
@@ -94,15 +140,18 @@ header button {
 	position:fixed;
 	left:0;
 	right:0;
-	top:0;
+	top:3em;
 	bottom:0;
 	background-color: var(--color-background);
-	translate:100% 0%;
-	transition:translate .3s;
+	transform: translate(100%, 0%);
+    transition: transform .3s; 
 	overflow-y: auto;
+	z-index: 100;
+	
+
 }
 nav.toonMenu {
-	translate:0% 0%;
+	transform: translate(0%, 0%);
   }
 
   
@@ -114,6 +163,7 @@ nav.toonMenu {
 /* p en htjes*/
 body{
 	background-color:var(--achtergrond-kleur);
+	padding-top: 2.5em; 
 }
 
 p{
@@ -153,13 +203,14 @@ section{
 h1{
 	font-family:"ff-ernestine-pro",sans-serif,sans-serif;
 	font-size: 1.5em;
-	color: white;
+	color:var(--color-background);
 	margin-bottom:-1em;
 
 }
 #myVideo {
     width: 100%;
     height: auto;
+	
 	
 }
 
@@ -175,7 +226,7 @@ position: absolute;
 }
 #overlay{
 	font-family:"wreath",sans-serif;
-	color: white;
+	color: var(--color-background);
 	font-size: 2em;
 	line-height: 1.5;
 	
@@ -219,7 +270,7 @@ position: absolute;
 .goedomteweten ul{
 	display:grid;
 	grid-template-columns:1fr;
-	border: 2px solid #ede5d5;
+	border: 2px solid var(--color-border);
 	background-color:var(--achtergrond-kleur);
 	border-radius: 0.5em ;
 	line-height: 2.5;
@@ -249,8 +300,8 @@ position: absolute;
 	margin: 0.5em;
 }
 .linkscontent a{
-	background-color: white;
-	border:2px solid #ede5d5;
+	background-color: var(--color-background);
+	border:2px solid var(--color-border);
 	color: var(--eftelingkleur);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:0.5em;
@@ -273,8 +324,8 @@ position: absolute;
 	width: 100%;
 }
 .downloadapp a{
-	background-color: white;
-	border:2px solid #ede5d5;
+	background-color:var(--color-background);
+	border:2px solid var(--color-border);
 	color: var(--eftelingkleur);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:1em;

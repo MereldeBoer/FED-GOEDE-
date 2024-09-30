@@ -9,6 +9,7 @@ if (videojoris) {
     videojoris.autoplay = true;
     videojoris.muted = true;
     videojoris.loop = true;
+
 }
 
 
