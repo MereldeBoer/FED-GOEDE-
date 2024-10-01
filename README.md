@@ -169,7 +169,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1: Tekst over de vidoe in het midden
   <img src="readme-images/tekstopvideo.jpg" width="375px" alt="kreeg de tekst niet in het midden">
-  
+
   - punt 2: gebruik van grid
    <img src="readme-images/gridjoris.jpg" width="375px" alt="grid gebruiken, lukte niet om netjes onder elkaar te krijgen omdat er verschil was in grootte van img">
 
@@ -216,7 +216,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  screenreader test:
+  - afbeedlingen hebben een goede alt tekst
+  - wel opletten  op spelling fouten
+  - logo efteling: ongelabeld
+  - door naviagtie gaat wat makkelijker omdat de teks in een uitklap zit en als je daar niet door heen wil kan je dat makkelijker skippen 
+  -footer veel infos maar volgensij niet heel storend, maar ga kijken  of ik het kan verbeteren
+  - twijfeld of kopjes in menu h2's zijn
+  
+  screentest pagina bezoekers met een beperking:
+  - in lijst noemd die alle arx markers
+
+  joris en de draak screenreader test:
+  - goede besslising geweest om de h1 veranderen naar Joris en de Draak houten achtbaan
+  - alt spellingfouten
+  - ride veranderen naar rider
+  - optie toevoegen om de kaart te skippen want kaart in screenreader heel onhandig
+  
+
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  WCAG test:
+  - in darkmode de efteling logo wit maken inplaats van rood en de iconen van de zoekfunctie en menu ook
+  - menu heeft een aria hidden true waardoor het niet toegankelijk is voor screenreaders
+  -video geen ondertitteling
+  - kleur contrast tussen de tekst en de video niet goed
+  - kleur contrast afbeelding en tekst
+  - teksten zijn duidelijk
+  - 1 h1 element per pagina
+  -skipt geen headings level
+  - word ul ol en li elementen gebruikt voor lijsten
+  - video speelt van zelf af en is niet toegankelijk ( pauze knop toevoegen)
+
 
 </details>
 
@@ -291,8 +322,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+content (foto's en video)
+  1. bron1: https://www.efteling.com/nl/park/attracties/joris-en-de-draak
+  2. bron 2:https://www.efteling.com/nl/park/informatie/bezoekers-met-een-beperking/ontdek-het-park
+  3. bron 3 kaart: https://www.efteling.com/nl/blog/corporate/20220929-efteling-wordt-rookvrij
+
+  Hulpmiddel:
+  1. bron 1 (voor hamburger menu en dark licght mode): https://dlo.mijnhva.nl/d2l/le/content/609314/Home
+  2. bron 2 (moeilijkere stukken codering bijvoorbeeld de kaart en fmormulier states): https://chatgpt.com
+  3. bron 3 coords map: https://www.fla-shop.com/image-map/
 
 </details>

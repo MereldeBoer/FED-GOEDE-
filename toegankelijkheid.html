@@ -29,6 +29,7 @@
     <nav>
         <button aria-hidden="true"><img src="header-footer/kruisje.png" alt="terug" />Sluit</button>
         <section class="uitklap">
+            <a class="tickets" href="#">Tickets</a>
             <h2>ontdek het park</h2>
             <details>
                 <summary><strong>Het park</strong></summary>
@@ -180,7 +181,7 @@
                 <p>Als de attractie ontruimd moet worden, kan het gebeuren dat je met behulp van onze BHV-ers in een evac chair wordt gezet dan wel een trap op of af moet kunnen lopen. Tijdens een ontruiming kunnen er wel obstakels zijn, voordat je buiten de attractie bent gebracht. In verband met de veiligheid in geval van een ontruiming is het niet mogelijk om met een grote groep bezoekers met een beperking tegelijkertijd de attractie te bezoeken. Grote groepen zullen daarom verdeeld worden in kleinere groepjes.</p>
             
         </section>
-        <section id="video" class="carrousel-2">
+        <section  class="carrousel-2">
             <h2>Video's rolstoeltoegankelijkheid</h2>
             <ul>
                 <li><img src="toegankelijkheidpagina/videobarron.jpg" alt="video van rolstoeltoegankelijkheid baron1898"></li>
@@ -318,13 +319,23 @@
 					<a href="#">Efteling Blog</a>
 					<a href="#">Kom overnachten</a>
 				</details>
-			
-			
 				<details>
 					<summary><strong>Nieuwsbrief</strong></summary>
-					<p>Kom alles te weten over de Efteling. Ontvang 1 a 2 keer per maand het laatste Efteling-nieuws, unieke kijkjes achter de schermen, aanbiedingen en meer. </p>
-					<a class="buttonfooter" href="#">Mis niets!</a>
+					<p class="kortere-paragraaf">Kom alles te weten over de Efteling. Ontvang 1 a 2 keer per maand het laatste Efteling-nieuws, unieke kijkjes achter de schermen, aanbiedingen en meer.</p>
+					<form action="#" method="post">
+						<label for="email">E-mail:</label>
+						<input type="email" id="email" name="email" required aria-required="true" placeholder="Voer uw e-mail in">
+                        <div role="alert" id="confirmation" style="display:none;">Bedankt voor uw aanmelding!</div>
+					<div role="alert" id="error-message" style="display:none;">Voer een geldig e-mailadres in.</div> <!-- Foutmelding toegevoegd -->
+						<a id="buttonfooter" href="#">Mis niets!</a>
+					</form>
 				</details>
+		
+			
+			
+			
+				
+					
 			
 		</section>
 		<section class="media">
@@ -344,9 +355,20 @@
 				<li><img src="header-footer/zoover.png" alt="Zoover awards"></li>
 			</ul>
 		</section>
-
-        
-
+		<form class="thema-formulier">
+			<h3>Lightmode of Darkmode</h3> 
+			 <fieldset>
+				<label>
+					<input type="radio" name="kleurtjes" value="light">
+					licht
+				</label>
+				<label>
+					<input type="radio" name="kleurtjes" value="dark">
+					donker
+				</label>
+			</fieldset>
+			
+		</form>
 
 
 	</footer>
