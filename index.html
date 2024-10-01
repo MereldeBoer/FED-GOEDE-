@@ -274,13 +274,23 @@
 					<a href="#">Efteling Blog</a>
 					<a href="#">Kom overnachten</a>
 				</details>
-			
-			
 				<details>
 					<summary><strong>Nieuwsbrief</strong></summary>
-					<p>Kom alles te weten over de Efteling. Ontvang 1 a 2 keer per maand het laatste Efteling-nieuws, unieke kijkjes achter de schermen, aanbiedingen en meer. </p>
-					<a class="buttonfooter" href="#">Mis niets!</a>
+					<p class="kortere-paragraaf">Kom alles te weten over de Efteling. Ontvang 1 a 2 keer per maand het laatste Efteling-nieuws, unieke kijkjes achter de schermen, aanbiedingen en meer.</p>
+					<form action="#" method="post">
+						<label for="email">E-mail:</label>
+						<input type="email" id="email" name="email" required aria-required="true" placeholder="Voer uw e-mail in">
+						<a id="buttonfooter" href="#">Mis niets!</a>
+					</form>
+					<div role="alert" id="confirmation" style="display:none;">Bedankt voor uw aanmelding!</div>
+					<div role="alert" id="error-message" style="display:none;">Voer een geldig e-mailadres in.</div> <!-- Foutmelding toegevoegd -->
 				</details>
+		
+			
+			
+			
+				
+					
 			
 		</section>
 		<section class="media">

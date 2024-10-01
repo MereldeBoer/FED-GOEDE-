@@ -7,6 +7,11 @@
 console.log("hi");
 
 const videojoris = document.getElementById('myVideo');
+const emailInput = document.getElementById('email');
+const button = document.getElementById('buttonfooter');
+const errorMessage = document.getElementById('error-message');
+
+
 let openButton = document.querySelector("header > button");
 let sluitButton = document.querySelector("nav button");
 
@@ -144,6 +149,34 @@ function openMenu() {
         area.addEventListener('click', showInfo);
     });
 });
+emailInput.addEventListener('input', () => {
+    if (emailInput.checkValidity()) {
+        emailInput.classList.add('valid');
+        emailInput.classList.remove('invalid');
+        errorMessage.style.display = 'none'; // Verberg foutmelding als invoer geldig is
+    } else {
+        emailInput.classList.add('invalid');
+        emailInput.classList.remove('valid');
+    }
+});
+
+button.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (emailInput.checkValidity()) {
+        confirmation.style.display = 'block';
+        errorMessage.style.display = 'none'; // Verberg foutmelding bij correcte invoer
+        emailInput.value = ''; // Leeg het invoerveld
+    } else {
+        confirmation.style.display = 'none'; // Verberg bevestiging als invoer ongeldig is
+        errorMessage.style.display = 'block'; // Toon foutmelding
+    }
+});
+
+
+
+
+
+
   
  
 

@@ -308,7 +308,7 @@ position: absolute;
 	border-radius: 0.5em;
 	text-decoration: none;
 	font-weight: bold;
-	margin-right: 18em;
+	
 
 }	
 
@@ -506,6 +506,7 @@ footer section{
 	
 }
 
+
 .uitklap a{
 	margin-bottom: 1em;
 	margin-top: 1em;
@@ -517,17 +518,51 @@ footer section{
 	font-size: 14px;
 	color: var(--footer-vragenkleur);
 }
-.buttonfooter{
+#buttonfooter{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
-	margin: 10px 0px 0px;
 	padding: 1em;
 	margin-right: 24em;
 	font-size: 16px;
 	border-radius: 0.5em;
+	width: 7em;
+	color: var(--color-background);
 	
 
 }
+.valid {
+    border: 2px solid green;
+}
+.invalid {
+    border: 2px solid red;
+}
+#error-message {
+    margin-top: 10px; /* Ruimte boven de foutmelding */
+    font-size: 14px; /* Grotere tekst voor de foutmelding */
+	color: var(--eftelingkleur);
+}
+#confirmation {
+    margin-top: 10px; /* Ruimte boven de bevestigingsmelding */
+    color: green; /* Groen voor bevestiging */
+}
+
+
+form {
+    margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 95vw;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+	
+}
+
+
+
 .media{
 	display: flex;
 	align-items: center;
@@ -641,8 +676,7 @@ position: absolute;
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:1em;
 	border-radius: 0.5em;
-	margin-left: 8.5em;
-	margin-right: 8.5em;
+	
 	text-decoration: none;
 	
 }
@@ -654,7 +688,7 @@ position: absolute;
 	width: 100%;
 	display: flex;
 	overflow-x: auto;
-	gap: 1em;
+	gap: 2em;
 }
 .carrousel-2{
 	display: flex;
@@ -683,7 +717,8 @@ position: absolute;
 	border-radius: 0.5em;
 	text-decoration: none;
 	font-weight: bold;
-	margin-right: 19em;
+	margin-right: 12em;
+	
 
 }
 .bezoekplannen div{
@@ -713,8 +748,7 @@ color: var(--color-background);
 	color: var(--color-background);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding: 1em;
-	margin-left: 8em;
-	margin-right: 8em;
+	
 	
 	border-radius: 0.5em;
 	text-decoration: none;
