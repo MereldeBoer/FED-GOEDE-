@@ -79,6 +79,7 @@ header{
 }
 header a{
 	z-index: 200;
+	
 
 }
 header a:nth-of-type(2) img {
@@ -147,8 +148,15 @@ header button {
     transition: transform .3s; 
 	overflow-y: auto;
 	z-index: 100;
+
+	
 	
 
+}
+header nav details{
+	border-top:2px solid#ede5d5 ;
+	border-bottom:2px solid#ede5d5 ;;
+	margin: 1em;
 }
 nav.toonMenu {
 	transform: translate(0%, 0%);
