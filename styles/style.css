@@ -371,13 +371,37 @@ position: absolute;
     padding: 10px;
     width: calc(100% - 20px); /* Breedte minus padding */
     z-index: 10; /* Zorg ervoor dat de overlay boven de kaart staat */
+
+    
 	
+	
+}
+.info div{
+	display: flex;
+    flex-direction: column; /* Plaatst de h3 en p onder elkaar */
+    text-align: left; /* Centreert de tekst verticaal */
+	padding: 0.5em;
+}
+
+.info div h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--footer-vragenkleur);
+	margin: 0;
+}
+.info div p{
+	font-size: 14px;
+	margin: 0;
+
 }
 
 .info img {
     max-width: 100px; /* Stel een maximale breedte in voor de afbeelding */
     height: auto;
-    margin-right: 10px; /* Ruimte tussen afbeelding en tekst */
+	display: block;
+	float: left;
+    
+	
 }
 
 /* Atracties */
