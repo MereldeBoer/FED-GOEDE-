@@ -207,10 +207,9 @@ p{
 
 	
 }
-a:hover{
-	color: var(--eftelingkleur);
 
-}
+
+
 h2{
 	font-family:"ff-ernestine-pro",sans-serif;
 	font-size: 1.2em;
@@ -381,6 +380,10 @@ position: absolute;
 .kaart {
 	width: 100%;
 	position: relative;
+	text-align: left;
+}
+.kaart a{
+	color: var(--color-text);
 }
 
 
