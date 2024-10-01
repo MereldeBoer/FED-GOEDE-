@@ -394,6 +394,9 @@ position: absolute;
 	margin: 0;
 
 }
+.info a{
+	color: var(--footer-vragenkleur);
+}
 
 .info img {
     max-width: 100px; /* Stel een maximale breedte in voor de afbeelding */

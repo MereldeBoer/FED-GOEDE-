@@ -47,69 +47,69 @@ function openMenu() {
     const infoData = {
         joris: {
             title: "Joris en de Draak",
-            text: "Een spannende rit waarbij je door een drakenhol gaat!",
+            text: "Houten achtbaan",
             image: "kaart/jorisendraak.jpg"
            
          
         },
         baron: {
             title: "Baron 1898",
-            text: "Een achtbaan met een vrije val van 37,5 meter!",
+            text: "Dive coaster",
             image: "kaart/baron1898.jpg"
         },
         symbolica: {
             title: "Symbolica",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "overdekte familie attractie",
             image: "kaart/symbolica.jpg"
         },
         hollander: {
             title: "Vliegende Hollander",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Water achtbaan",
             image: "kaart/vliegendehollander.jpg"
         },
         sprookjesbos: {
             title: "Sprookjesbos",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Betoverend bos",
             image: "kaart/sprookjesbos.jpg"
         },
         droomvlucht: {
             title: "Droomvlucht",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Overdekte attractie",
             image: "kaart/droomvlucht.jpg"
         },
         python: {
             title: "Python",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Achtbaan met loopings",
             image: "kaart/python.jpg"
         },
         villavolta: {
             title: "Villa Volta",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Ronddraaiend huis",
             image: "kaart/villavolta.jpg"
         },
         pagode: {
             title: "Pagode",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "zwevende tempel",
             image: "kaart/pagode.jpg"
         },
         fatamorgana: {
             title: "Fata Morgana",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Overdekte attractie",
             image: "kaart/fatamorgana.jpg"
         },
         pirana: {
             title: "Piraña",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Wildwaterbaan",
             image: "kaart/pirana.jpg"
         },
         carnaval: {
             title: "Carnaval Festival",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Overdekte attractie",
             image: "kaart/carnaval.jpg"
         },
         vogelrok: {
             title: "Vogelrok",
-            text: "Een betoverende dark ride voor het hele gezin.",
+            text: "Achtbaan in het donker",
             image: "kaart/vogelrok.jpg"
         },
         // Voeg hier meer attracties toe met hun informatie
