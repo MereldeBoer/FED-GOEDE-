@@ -156,25 +156,24 @@ header button {
 header nav details{
 	border-top:2px solid#ede5d5 ;
 	border-bottom:2px solid#ede5d5 ;;
-	margin: 1em;
+	
 }
 nav.toonMenu {
 	transform: translate(0%, 0%);
   }
-
-.tickets{
+  .uitklap div a{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
 	padding: 1em;
-	margin-right: 24em;
 	font-size: 16px;
 	border-radius: 0.5em;
 	width: 7em;
 	color: var(--color-background);
     animation: blink 1.5s infinite alternate; /* Knipperanimatie */
-	
+	text-align: center;
 	
   }
+
   @keyframes blink {
     0% {
        
@@ -249,6 +248,7 @@ h1{
 	margin-bottom:-1em;
 
 }
+
 #myVideo {
     width: 100%;
     height: auto;
@@ -568,6 +568,20 @@ footer section{
 	font-size: 14px;
 	color: var(--footer-vragenkleur);
 }
+.uitklap h2{
+	color: var(--footer-vragenkleur);
+	margin-bottom: -1em ;
+}
+.uitklap div{
+	background-color: var(--achtergrond-kleur);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:2px solid var(--color-border);
+	border-top:2px solid var(--color-border);
+	margin-top: -2em;
+	
+}
 #buttonfooter{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
@@ -602,6 +616,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	width: 95vw;
+	background-color: var(--color-background);
 }
 
 input[type="email"] {
@@ -785,6 +800,9 @@ flex-direction: column;
 z-index: 13;
 position: absolute;
 color: var(--color-background);
+
+
+
 
 }
 .bezoekplannen h2{

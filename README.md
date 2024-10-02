@@ -55,7 +55,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/jorisendedraak2.jpg" width="375px" alt="foto's en video's van de achtbaan">
   <img src="readme-images/jorisendedraak3.jpg" width="375px" alt="toegankelijkheid van de actractie">
   <img src="readme-images/jorisendedraak4.jpg" width="375px" alt="waar je het op de kaart kan vinden">
-  <img src="readme-images/jorisendedraak5.jpg" width="375px" alt="andere actracties">
+  <img src="readme-images/jorisendedraak5.PNG" width="375px" alt="andere actracties">
  
 </details>
 
@@ -132,7 +132,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - html ging wel goed
+  - soms moeilijk om te bepalen wat een section en wat een article is
+  - twijfel over wat de h1tjes en de h2tjes zijn
 
 
   ### Agenda voor meeting
@@ -148,10 +150,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Html zag er goed uit
+  - icoon die beweegt in span element handig
+  - div mag in article als het echt niet anders kan
+  -site ASIDE
 
 </details>
 
@@ -202,7 +204,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - h1 veranderen naar Joris en de draak
   - detail hoeft niet in article
 
-- ...
+
 
 </details>
 
@@ -261,7 +263,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - hamburger menu ging makkelijker dan ik dacht maar doet het niet op de tweede pagina
+  - stijlen van sommige knopjes en hamburger menu precies zoals de efteling lastig
+  - weet nog niet zo goed  wat een goede surface plane is
+  -veel infos
+ 
 
 
   ### Agenda voor meeting
@@ -277,10 +283,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - video moet in if else want anders doet de javascript op de andere pagina het niet
+  - kaart kan ik maken met overflow: scroll en met een container met 100% width
 
 </details>
 
