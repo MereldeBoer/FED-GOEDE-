@@ -148,6 +148,7 @@ header button {
     transition: transform .3s; 
 	overflow-y: auto;
 	z-index: 100;
+	
 
 	
 	
@@ -188,6 +189,189 @@ nav.toonMenu {
         transform: scale(1); /* Normale grootte */
     }
 }
+/* footer */
+footer section{
+	display: flex;
+	align-items: flex-start;
+	background-color:var(--color-background);
+	border-top:2px solid#ede5d5 ;
+
+	
+
+}
+.route ul{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.5em;
+	margin-bottom:0.5em ;
+	list-style-type: none;
+}
+.route li{
+	margin: 0.5em;
+	font-family:"ff-ernestine-pro",sans-serif ;
+	color: var(--footer-routekleur);
+}
+.route a{
+	text-decoration: none;
+	color:var(--footer-routekleur)
+}
+.vragen{
+	display: flex;
+	justify-content: flex-start;
+
+	
+}
+
+.vragen a{
+	color: var(--footer-vragenkleur);
+	margin-bottom: 2em;
+	font-size: 14px;
+	
+	
+}
+.vragen p{
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-size: 14px;
+}
+.vragen span{
+	color: var(--footer-vragenkleur);
+	font-weight: bold;
+	font-size: 14px;
+
+}
+.uitklap{
+	display: flex;
+	text-align: start;
+}
+.uitklap strong{
+	color: var(--footer-vragenkleur);
+	font-size: 14px;
+	
+
+
+}
+.uitklap details{
+	display: flex;
+
+	text-align:left;
+	margin-top:  2em;
+	
+
+	
+}
+
+
+.uitklap a{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	list-style-type: none;
+	color: var(--footer-vragenkleur);
+	text-decoration: none;
+}
+.uitklap p{
+	font-size: 14px;
+	color: var(--footer-vragenkleur);
+}
+.uitklap h2{
+	color: var(--footer-vragenkleur);
+	margin-bottom: -1em ;
+}
+.uitklap div{
+	background-color: var(--achtergrond-kleur);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:2px solid var(--color-border);
+	border-top:2px solid var(--color-border);
+	margin-top: -2em;
+	
+	
+}
+#buttonfooter{
+	background-color: var(--eftelingkleur);
+	text-decoration: none;
+	padding: 1em;
+	margin-right: 24em;
+	font-size: 16px;
+	border-radius: 0.5em;
+	width: 7em;
+	color: var(--color-background);
+	
+
+}
+.valid {
+    border: 2px solid green;
+}
+.invalid {
+    border: 2px solid red;
+}
+#error-message {
+    margin-top: 10px; /* Ruimte boven de foutmelding */
+    font-size: 14px; /* Grotere tekst voor de foutmelding */
+	color: var(--eftelingkleur);
+}
+#confirmation {
+    margin-top: 10px; /* Ruimte boven de bevestigingsmelding */
+    color: green; /* Groen voor bevestiging */
+}
+
+
+form {
+    margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 95vw;
+	background-color: var(--color-background);
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+	
+}
+
+
+
+.media{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+
+	
+}
+.media img{
+	margin: 0.5em;
+	width: 8em;
+}
+.prijzen{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	text-align:left;
+
+
+}
+
+.prijzen ul li{
+	list-style: none;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	color: var(--footer-vragenkleur);
+	
+	
+	
+}
+.prijzen a{
+	text-decoration: none;
+	color: var(--footer-vragenkleur);
+
+}
+
+
 
 
 
@@ -304,6 +488,7 @@ position: absolute;
 	flex-direction:column;
 	text-align:start;
 	margin-left: 1em;
+
 	
 	
 
@@ -317,12 +502,14 @@ position: absolute;
 	border-radius: 0.5em ;
 	line-height: 2.5;
 	
+	
 
 	
 
 
 
 }
+
 
 	
 .linkscontent{
@@ -449,7 +636,7 @@ position: absolute;
 }
 
 .info img {
-    max-width: 100px; /* Stel een maximale breedte in voor de afbeelding */
+    max-width: 100px; 
     height: auto;
 	display: block;
 	float: left;
@@ -483,187 +670,6 @@ position: absolute;
 
 
 
-
-/* footer */
-footer section{
-	display: flex;
-	align-items: flex-start;
-	background-color:var(--color-background);
-	border-top:2px solid#ede5d5 ;
-
-	
-
-}
-.route ul{
-	display: flex;
-	flex-direction: row;
-	margin-top: 0.5em;
-	margin-bottom:0.5em ;
-	list-style-type: none;
-}
-.route li{
-	margin: 0.5em;
-	font-family:"ff-ernestine-pro",sans-serif ;
-	color: var(--footer-routekleur);
-}
-.route a{
-	text-decoration: none;
-	color:var(--footer-routekleur)
-}
-.vragen{
-	display: flex;
-	justify-content: flex-start;
-
-	
-}
-
-.vragen a{
-	color: var(--footer-vragenkleur);
-	margin-bottom: 2em;
-	font-size: 14px;
-	
-	
-}
-.vragen p{
-	margin-top: 2em;
-	margin-bottom: 0.5em;
-	font-size: 14px;
-}
-.vragen span{
-	color: var(--footer-vragenkleur);
-	font-weight: bold;
-	font-size: 14px;
-
-}
-.uitklap{
-	display: flex;
-	text-align: start;
-}
-.uitklap strong{
-	color: var(--footer-vragenkleur);
-	font-size: 14px;
-	
-
-
-}
-.uitklap details{
-	display: flex;
-
-	text-align:left;
-	margin-top:  2em;
-	
-
-	
-}
-
-
-.uitklap a{
-	margin-bottom: 1em;
-	margin-top: 1em;
-	list-style-type: none;
-	color: var(--footer-vragenkleur);
-	text-decoration: none;
-}
-.uitklap p{
-	font-size: 14px;
-	color: var(--footer-vragenkleur);
-}
-.uitklap h2{
-	color: var(--footer-vragenkleur);
-	margin-bottom: -1em ;
-}
-.uitklap div{
-	background-color: var(--achtergrond-kleur);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-bottom:2px solid var(--color-border);
-	border-top:2px solid var(--color-border);
-	margin-top: -2em;
-	
-}
-#buttonfooter{
-	background-color: var(--eftelingkleur);
-	text-decoration: none;
-	padding: 1em;
-	margin-right: 24em;
-	font-size: 16px;
-	border-radius: 0.5em;
-	width: 7em;
-	color: var(--color-background);
-	
-
-}
-.valid {
-    border: 2px solid green;
-}
-.invalid {
-    border: 2px solid red;
-}
-#error-message {
-    margin-top: 10px; /* Ruimte boven de foutmelding */
-    font-size: 14px; /* Grotere tekst voor de foutmelding */
-	color: var(--eftelingkleur);
-}
-#confirmation {
-    margin-top: 10px; /* Ruimte boven de bevestigingsmelding */
-    color: green; /* Groen voor bevestiging */
-}
-
-
-form {
-    margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	width: 95vw;
-	background-color: var(--color-background);
-}
-
-input[type="email"] {
-    padding: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-	
-}
-
-
-
-.media{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
-
-	
-}
-.media img{
-	margin: 0.5em;
-	width: 8em;
-}
-.prijzen{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: flex-start;
-	text-align:left;
-
-
-}
-
-.prijzen ul li{
-	list-style: none;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-	color: var(--footer-vragenkleur);
-	
-	
-	
-}
-.prijzen a{
-	text-decoration: none;
-	color: var(--footer-vragenkleur);
-
-}
 
 
 
