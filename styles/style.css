@@ -97,25 +97,17 @@ header img{
 	margin-top: 1.5em;
 	margin-bottom: 1em;
 	width: 6em;                
-    height: auto;  
+     
 	
 	
 }
 header button {
 	padding:.5em;
-	
-	/* icon en tekst met gap-je naast elkaar */
 	display:flex;
 	align-items:center;
 	gap:.25em;
-	
-	/* standaard styling aanpassen */
-	appearance:none;
 	background-color:transparent;
 	border:none;
-	border-radius:.25em; 
-	font:inherit;
-	text-align:center;
 	color:var(--button-color);
 	z-index: 200;
   }
@@ -130,14 +122,11 @@ header button {
 	
    }
    nav {
-	padding:1em;
+	
 	
 	display:grid;
 	align-content:start;
 	gap:1em;
-	
-	background-image:var(--menu-gradient);
-	
 	position:fixed;
 	left:0;
 	right:0;
@@ -156,13 +145,24 @@ header button {
 }
 header nav details{
 	border-top:2px solid#ede5d5 ;
-	border-bottom:2px solid#ede5d5 ;;
+	
 	
 }
 nav.toonMenu {
 	transform: translate(0%, 0%);
   }
-  .uitklap div a{
+.uitklap div{
+	background-color: var(--achtergrond-kleur);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:2px solid var(--color-border);
+	border-top:2px solid var(--color-border);
+	margin-top: -2em;
+	
+	
+}
+.uitklap div a{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
 	padding: 1em;
@@ -172,6 +172,7 @@ nav.toonMenu {
 	color: var(--color-background);
     animation: blink 1.5s infinite alternate; /* Knipperanimatie */
 	text-align: center;
+	
 	
   }
 
@@ -188,6 +189,13 @@ nav.toonMenu {
         
         transform: scale(1); /* Normale grootte */
     }
+}
+header form fieldset{
+	border: 2px solid#ede5d5;
+}
+header form h2{
+	color: var(--footer-vragenkleur);
+	
 }
 /* footer */
 footer section{
@@ -248,8 +256,12 @@ footer section{
 	color: var(--footer-vragenkleur);
 	font-size: 14px;
 	
+	
 
 
+}
+.uitklap summary{
+	margin: 1em;
 }
 .uitklap details{
 	display: flex;
@@ -268,6 +280,7 @@ footer section{
 	list-style-type: none;
 	color: var(--footer-vragenkleur);
 	text-decoration: none;
+	margin-left: 1em;
 }
 .uitklap p{
 	font-size: 14px;
@@ -277,17 +290,7 @@ footer section{
 	color: var(--footer-vragenkleur);
 	margin-bottom: -1em ;
 }
-.uitklap div{
-	background-color: var(--achtergrond-kleur);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-bottom:2px solid var(--color-border);
-	border-top:2px solid var(--color-border);
-	margin-top: -2em;
-	
-	
-}
+
 #buttonfooter{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
@@ -501,6 +504,7 @@ position: absolute;
 	background-color:var(--achtergrond-kleur);
 	border-radius: 0.5em ;
 	line-height: 2.5;
+	list-style-type: none;
 	
 	
 
@@ -508,6 +512,19 @@ position: absolute;
 
 
 
+}
+.goedomteweten li{
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+	margin-left: -1em;
+	color: var(--footer-vragenkleur);
+}
+.goedomteweten img{
+	width: 2.5em;
+	margin-right: 1em;
+	
+	
 }
 
 
@@ -530,6 +547,16 @@ position: absolute;
 }
 .linkscontent ul{
 	line-height: 2em;
+}
+.linkscontent li{
+	display: flex;
+	align-items: center;
+	margin-left: -1em;
+	color: var(--footer-vragenkleur);
+	margin-left: -3em;
+}
+.linkscontent ul li img{
+	width: 1em;
 }
 .linkscontent a{
 	background-color: var(--color-background);
@@ -689,7 +716,6 @@ text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 
 }
 .bezoekersbeperking img{
-	width: 100%;
     height: 17em;
 	position: relative;
 	object-fit: cover;
@@ -700,10 +726,7 @@ text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 
 
 .Gasnelnaarlijst{
-	display: flex;
 	text-align: left;
-	border: 2px solid #ede5d5;
-	border-radius: 0.5em ;
 	border: 2px solid #ede5d5;
 	background-color: white;
 	border-radius: 0.5em ;
@@ -765,7 +788,6 @@ position: absolute;
 	gap: 2em;
 }
 .carrousel-2{
-	display: flex;
 	text-align: left;
 }
 

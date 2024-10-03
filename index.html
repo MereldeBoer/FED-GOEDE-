@@ -19,16 +19,16 @@
 	<header>
 		
 			<a href="#">
-				<img src="header-footer/eftelinglogo.png" alt="logo" aria-label="Efteling logo">
+				<img src="header-footer/eftelinglogo.png" alt="logo van de Efteling" aria-label="Efteling logo">
 			</a>
 			<a href="#">
 				<img src="header-footer/vergrootglas.png" alt="Zoeken">
 			</a>
-			<button>menu<img src="header-footer/Hamburgermenu1.png" alt="Uitklap menu" /></button>
+			<button>menu<img src="header-footer/Hamburgermenu1.png" alt="Uitklap menu" ></button>
 		
 		
 		<nav>
-			<button aria-hidden="true"><img src="header-footer/kruisje.png" alt="terug" />Sluit</button>
+			<button><img src="header-footer/kruisje.png" alt="terug" >Sluit</button>
 			<section class="uitklap">
 				<div><a  href="#">Tickets</a></div>
 				<h2>ontdek het park</h2>
@@ -111,6 +111,20 @@
 					<a href="#">Overnachten in 2025 of 2026</a>
 				</details>
 			</section>
+			<form >
+				<h2>Lightmode of Darkmode</h2> 
+				 <fieldset>
+					<label>
+						<input type="radio" name="kleurtjes" value="light">
+						licht
+					</label>
+					<label>
+						<input type="radio" name="kleurtjes" value="dark">
+						donker
+					</label>
+				</fieldset>
+				
+			</form>
 			
 
 		</nav>
@@ -135,7 +149,7 @@
 			<p>Versla de draak die het koninkrijk teistert. Alle krijgers worden uitgedaagd één van de banen te kiezen en met ‘Water’ of ‘Vuur’ het beest te kloppen. Degene die hierin het snelst slaagt, krijgt alle eer na een rit in deze houten racerachtbaan.</p>
 		</section>
 
-		<section class="columnjorisendraak">
+		<section class="columnjorisendraak" aria-label="Joris en de Draak Fotogalerij">
 			<img src="jorisdraak/youtubeafbeelding.jpg" alt="link naar youtube video van de achtbaan">
 			<img src="jorisdraak/achtbaanbijmeer.jpg" alt="Joris en de draak avhtbaan bij een meer">
 			<img src="jorisdraak/kindenvaderbijdraak.jpg" alt="dochter en vader kijkend naar de draak">
@@ -149,18 +163,20 @@
 			<h2>Goed om te weten</h2>
 			
 				<ul>
-					<li>Rolstoeltoegankelijk met transfer</li>
-					<li>Niet geschikt voor zwangere vrouwen</li>
-					<li>Niet geschikt bij lichamelijk letsel</li>
-					<li>Geopend als de weersomstandigheden het toelaten</li>
-					<li>Minimale lengte 1,10 m</li>
-					<li>Camera’s niet toegestaan</li>
-					<li>Niet geschikt bij medische aandoeningen</li>
-					<li>Attractie met babyswitch</li>
-					<li>Kinderen tussen 1,10 m en 1,20 m met persoon van 16 jaar of ouder</li>
+					<li><img src="jorisdraak/rolstoeltoegankelijk.png" alt="">Rolstoeltoegankelijk met transfer</li>
+					<li><img src="jorisdraak/Minder10.png" alt="">Minimale lengte 1,10 m</li>
+					<li><img src="jorisdraak/begeleiding.png" alt="">Kinderen tussen 1,10 m en 1,20 m met persoon van 16 jaar of ouder</li>
+					<li><img src="jorisdraak/zwanger.png" alt="">Niet geschikt voor zwangere vrouwen</li>
+					<li><img src="jorisdraak/verbodencamera's.png" alt="">Camera’s niet toegestaan</li>
+					<li><img src="jorisdraak/lichaamletsel.png" alt="">Niet geschikt bij lichamelijk letsel</li>
+					<li><img src="jorisdraak/medischeaandoening.png" alt="">Niet geschikt bij medische aandoeningen</li>
+					<li><img src="jorisdraak/duizelig.png" alt="">Je kunt mogelijk duizelig worden</li>
+					<li><img src="jorisdraak/koud.png" alt="">Geopend als de weersomstandigheden het toelaten</li>
+					<li><img src="jorisdraak/famillie.png" alt="">Attractie met babyswitch</li>
+					<li><img src="jorisdraak/zon.png" alt="">Outdoor attractie</li>
 					<li>Mutsen en shawls niet toegestaan</li>
-					<li>Je kunt mogelijk duizelig worden</li>
-					<li>Outdoor attractie</li>
+					
+					
 				</ul>
 			
 				
@@ -178,7 +194,7 @@
 		</section>
 		<section class="kaart">
 			<h2>Plattegrond</h2>
-			<p>Wilt u meer informatie over de attracties? Kom er achter door op de kaart op de verschillende attracties te klikken of <a href="#">Sla de kaart over </a></p>
+			<p>Wilt u meer informatie over de attracties? Kom er achter door op de kaart op de verschillende attracties te klikken of <a href="#beleefmeer">Sla de kaart over </a></p>
 			
 			<figure>
 				
@@ -215,11 +231,10 @@
 					<p id="info-text"></p>
 					<a href="#">Meer informatie</a>
 				</div>
-
-				
 			</article>
 		</section>
-		<section  class="carrousel">
+
+		<section id="beleefmeer" class="carrousel">
 			<h2>Beleef meer in de Efteling</h2>
 			<ul>
 				<li><img src="jorisdraak/baron1898.jpg" alt="baron1898"></li>
@@ -232,7 +247,7 @@
 
 	</main>
 	<footer>
-		<section class="route">
+		<section class="route" aria-label="Route van hoe je naar pagina bent gekomen">
 			<ul>
 				<li> <a href="#">home</a></li>
 				<li><a href="#">park</a></li>
@@ -240,11 +255,11 @@
 				<li>Joris en de Draak</li>
 			</ul>
 		</section>
-		<section class="vragen">
+		<section class="vragen" aria-label="Vragen?">
 			<p><span>Vragen?</span> we helpen je het antwoord te vinden.</p>
 			<a href="#">Klantenservice & contact</a>
 		</section>
-		<section class="uitklap">
+		<section class="uitklap" aria-label="Uitklap menu's">
 		
 				<details>
 					<summary><strong>Het park</strong></summary>
@@ -297,11 +312,11 @@
 					
 			
 		</section>
-		<section class="media">
+		<section class="media" aria-label="Efteling media platforms">
 			<img src="header-footer/googleplay.png" alt="googleplay">
 			<img src="header-footer/appstore.png" alt="App store">
 		</section>
-		<section class="prijzen">
+		<section class="prijzen" aria-label="Gewonnen prijzen">
 			<ul>
 				<li> @ Efteling 2024</li>
 				<li><a href="#">Privacy statement</a></li>
@@ -314,20 +329,7 @@
 				<li><img src="header-footer/zoover.png" alt="Zoover awards"></li>
 			</ul>
 		</section>
-		<form class="thema-formulier">
-			<h3>Lightmode of Darkmode</h3> 
-			 <fieldset>
-				<label>
-					<input type="radio" name="kleurtjes" value="light">
-					licht
-				</label>
-				<label>
-					<input type="radio" name="kleurtjes" value="dark">
-					donker
-				</label>
-			</fieldset>
-			
-		</form>
+		
 
 
 	</footer>

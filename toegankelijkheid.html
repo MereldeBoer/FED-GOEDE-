@@ -10,7 +10,6 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/isd2gfc.css">
-	<link rel="stylesheet" href="https://use.typekit.net/isd2gfc.css">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.ico">
 </head>
 
@@ -18,16 +17,19 @@
     <header>
 		
         <a href="#">
-            <img src="header-footer/eftelinglogo.png" alt="logo">
+            <img src="header-footer/eftelinglogo.png" alt="logo van de Efteling" aria-label="Efteling logo">
         </a>
         <a href="#">
             <img src="header-footer/vergrootglas.png" alt="Zoeken">
         </a>
-        <button>menu<img src="header-footer/Hamburgermenu1.png" alt="Uitklap menu" /></button>
+    
+            <img src="header-footer/vergrootglas.png" alt="Zoeken">
+       
+        <button>menu<img src="header-footer/Hamburgermenu1.png" alt="Uitklap menu" ></button>
     
     
     <nav>
-        <button aria-hidden="true"><img src="header-footer/kruisje.png" alt="terug" />Sluit</button>
+        <button aria-hidden="true"><img src="header-footer/kruisje.png" alt="terug" >Sluit</button>
         <section class="uitklap">
             <div><a  href="#">Tickets</a></div>
             <h2>ontdek het park</h2>
@@ -110,6 +112,20 @@
                 <a href="#">Overnachten in 2025 of 2026</a>
             </details>
         </section>
+        <form >
+            <h2>Lightmode of Darkmode</h2> 
+             <fieldset>
+                <label>
+                    <input type="radio" name="kleurtjes" value="light">
+                    licht
+                </label>
+                <label>
+                    <input type="radio" name="kleurtjes" value="dark">
+                    donker
+                </label>
+            </fieldset>
+            
+        </form>
         
 
     </nav>
@@ -199,21 +215,21 @@
             <h2>Toegankelijkheid toiletten</h2>
             <p>Op de volgende locaties vind je in de Efteling een aangepast toilet voor bezoekers met een beperking:</p>
             <ul>
-                <li>Hoofdentree</li>
-                <li>Parkeerterrein</li>
-                <li>Fata Morgana</li>
-                <li>De Laetste Hoop</li>
-                <li>Kleine Boodschap</li>
-                <li>Kleuterhof</li>
-                <li>Fabula</li>
-                <li>Het Wapen van Raveleijn</li>
-                <li>Efteling Theater</li>
-                <li>Carrousel Paleis</li>
-                <li>Carnaval Festivalplein</li>
-                <li>’t Gemack</li>
-                <li>Het Witte Paard</li>
-                <li>Polles Keuken</li>
-                <li>Station de Oost</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Hoofdentree</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Parkeerterrein</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Fata Morgana</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">De Laetste Hoop</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Kleine Boodschap</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Kleuterhof</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Fabula</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Het Wapen van Raveleijn</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Efteling Theater</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Carrousel Paleis</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Carnaval Festivalplein</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">’t Gemack</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Het Witte Paard</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Polles Keuken</li>
+                <li><img src="toegankelijkheidpagina/vink.png" alt="Groene vinkje">Station de Oost</li>
             </ul>
             <img src="toegankelijkheidpagina/wcmannetje.jpg" alt="een kabbouter die zijn duimbje op doet">
         </section>
@@ -273,7 +289,7 @@
 		
 	</main>
     <footer>
-		<section class="route">
+		<section class="route" aria-label="Route van hoe je naar de pagina bent gekomen">
 			<ul>
 				<li> <a href="#">home</a></li>
 				<li><a href="#">park</a></li>
@@ -281,11 +297,11 @@
 				<li>Joris en de Draak</li>
 			</ul>
 		</section>
-		<section class="vragen">
+		<section class="vragen" aria-label="Vragen?">
 			<p><span>Vragen?</span> we helpen je het antwoord te vinden.</p>
 			<a href="#">Klantenservice & contact</a>
 		</section>
-		<section class="uitklap">
+		<section class="uitklap" aria-label="Uitklap menu">
 		
 				<details>
 					<summary><strong>Het park</strong></summary>
@@ -338,11 +354,11 @@
 					
 			
 		</section>
-		<section class="media">
+		<section class="media" aria-label="Efteling media platforms">
 			<img src="header-footer/googleplay.png" alt="googleplay">
 			<img src="header-footer/appstore.png" alt="App store">
 		</section>
-		<section class="prijzen">
+		<section class="prijzen" aria-label="Gewonnen prijzen">
 			<ul>
 				<li> @ Efteling 2024</li>
 				<li><a href="#">Privacy statement</a></li>
@@ -355,20 +371,7 @@
 				<li><img src="header-footer/zoover.png" alt="Zoover awards"></li>
 			</ul>
 		</section>
-		<form class="thema-formulier">
-			<h3>Lightmode of Darkmode</h3> 
-			 <fieldset>
-				<label>
-					<input type="radio" name="kleurtjes" value="light">
-					licht
-				</label>
-				<label>
-					<input type="radio" name="kleurtjes" value="dark">
-					donker
-				</label>
-			</fieldset>
-			
-		</form>
+		
 
 
 	</footer>
