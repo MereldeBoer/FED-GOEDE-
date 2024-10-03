@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -23,8 +19,6 @@
 	--footer-routekleur:#737373;
 	--footer-vragenkleur:#4d3928 ;
 	--color-border:#ede5d5;
-	
-	
 }
 
 :root:has([value="light"]:checked) {
@@ -49,12 +43,6 @@
 	--color-border:#ede5d5;
 }
 
-
-
-
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -70,37 +58,24 @@ header{
 	z-index: 200;                           
     top: 0;                                      
     left: 0;  
-  	justify-content:space-between;
-  	
-
-
-    
-	
+  	justify-content:space-between;	
 }
+
 header a{
 	z-index: 200;
-	
-
 }
+
 header a:nth-of-type(2) img {
 	width: 1em;
 	margin-left: 10em;
-
-	
-
-	
-	
   }
-
 
 header img{ 
 	margin-top: 1.5em;
 	margin-bottom: 1em;
-	width: 6em;                
-     
-	
-	
+	width: 6em;                	
 }
+
 header button {
 	padding:.5em;
 	display:flex;
@@ -111,19 +86,18 @@ header button {
 	color:var(--button-color);
 	z-index: 200;
   }
-  
-  header button img {
+
+header button img {
 	width: 1em;
 	margin-bottom: 1.3em;
 	
   }
-  nav button {
+
+nav button {
 	justify-self:start;
-	
    }
-   nav {
-	
-	
+
+nav {
 	display:grid;
 	align-content:start;
 	gap:1em;
@@ -137,20 +111,183 @@ header button {
     transition: transform .3s; 
 	overflow-y: auto;
 	z-index: 100;
-	
-
-	
-	
-
 }
+
 header nav details{
 	border-top:2px solid#ede5d5 ;
-	
-	
 }
+
 nav.toonMenu {
 	transform: translate(0%, 0%);
-  }
+}
+
+
+header form fieldset{
+	border: 2px solid#ede5d5;
+}
+
+header form h2{
+	color: var(--footer-vragenkleur);
+}
+
+/* footer */
+footer section{
+	display: flex;
+	align-items: flex-start;
+	background-color:var(--color-background);
+	border-top:2px solid#ede5d5 ;
+}
+
+.route ul{
+	display: flex;
+	margin-top: 0.5em;
+	margin-bottom:0.5em ;
+	list-style-type: none;
+}
+
+.route li{
+	margin: 0.5em;
+	font-family:"ff-ernestine-pro",sans-serif ;
+	color: var(--footer-routekleur);
+}
+
+.route a{
+	text-decoration: none;
+	color:var(--footer-routekleur)
+}
+
+.vragen a{
+	color: var(--footer-vragenkleur);
+	margin-bottom: 2em;
+	font-size: 14px;	
+}
+
+.vragen p{
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-size: 14px;
+}
+
+.vragen span{
+	color: var(--footer-vragenkleur);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#buttonfooter{
+	background-color: var(--eftelingkleur);
+	padding: 1em;
+	font-size: 16px;
+	border-radius: 0.5em;
+	width: 7em;
+	color: var(--color-background);
+	margin-left: 0;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+#error-message {
+    margin-top: 10px; 
+    font-size: 14px; 
+	color: var(--eftelingkleur);
+}
+
+#confirmation {
+    margin-top: 10px; 
+    color: green;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 95vw;
+	background-color: var(--color-background);
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+	
+}
+
+.media{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+.media img{
+	margin: 0.5em;
+	width: 8em;
+}
+
+.prijzen{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	text-align:left;
+}
+
+.prijzen ul li{
+	list-style: none;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	color: var(--footer-vragenkleur);	
+}
+
+.prijzen a{
+	text-decoration: none;
+	color: var(--footer-vragenkleur);
+
+}
+
+/* Header/footer*/
+.uitklap{
+	display: flex;
+	text-align: start;
+}
+
+.uitklap strong{
+	color: var(--footer-vragenkleur);
+	font-size: 14px;
+}
+
+.uitklap summary{
+	margin: 1em;
+}
+
+.uitklap details{
+	display: flex;
+	text-align:left;
+	margin-top:  2em;	
+}
+
+.uitklap a{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	list-style-type: none;
+	color: var(--footer-vragenkleur);
+	text-decoration: none;
+	margin-left: 1em;
+}
+
+.uitklap p{
+	font-size: 14px;
+	color: var(--footer-vragenkleur);
+}
+
+.uitklap h2{
+	color: var(--footer-vragenkleur);
+	margin-bottom: -1em ;
+}
+
 .uitklap div{
 	background-color: var(--achtergrond-kleur);
 	display: flex;
@@ -159,9 +296,8 @@ nav.toonMenu {
 	border-bottom:2px solid var(--color-border);
 	border-top:2px solid var(--color-border);
 	margin-top: -2em;
-	
-	
 }
+
 .uitklap div a{
 	background-color: var(--eftelingkleur);
 	text-decoration: none;
@@ -170,12 +306,11 @@ nav.toonMenu {
 	border-radius: 0.5em;
 	width: 7em;
 	color: var(--color-background);
-    animation: blink 1.5s infinite alternate; /* Knipperanimatie */
+    animation: blink 1.5s infinite alternate;
 	text-align: center;
-	
-	
   }
 
+  /* Animatie klein en groot worden tickets knop */
   @keyframes blink {
     0% {
        
@@ -190,200 +325,7 @@ nav.toonMenu {
         transform: scale(1); /* Normale grootte */
     }
 }
-header form fieldset{
-	border: 2px solid#ede5d5;
-}
-header form h2{
-	color: var(--footer-vragenkleur);
-	
-}
-/* footer */
-footer section{
-	display: flex;
-	align-items: flex-start;
-	background-color:var(--color-background);
-	border-top:2px solid#ede5d5 ;
 
-	
-
-}
-.route ul{
-	display: flex;
-	flex-direction: row;
-	margin-top: 0.5em;
-	margin-bottom:0.5em ;
-	list-style-type: none;
-}
-.route li{
-	margin: 0.5em;
-	font-family:"ff-ernestine-pro",sans-serif ;
-	color: var(--footer-routekleur);
-}
-.route a{
-	text-decoration: none;
-	color:var(--footer-routekleur)
-}
-.vragen{
-	display: flex;
-	justify-content: flex-start;
-
-	
-}
-
-.vragen a{
-	color: var(--footer-vragenkleur);
-	margin-bottom: 2em;
-	font-size: 14px;
-	
-	
-}
-.vragen p{
-	margin-top: 2em;
-	margin-bottom: 0.5em;
-	font-size: 14px;
-}
-.vragen span{
-	color: var(--footer-vragenkleur);
-	font-weight: bold;
-	font-size: 14px;
-
-}
-.uitklap{
-	display: flex;
-	text-align: start;
-}
-.uitklap strong{
-	color: var(--footer-vragenkleur);
-	font-size: 14px;
-	
-	
-
-
-}
-.uitklap summary{
-	margin: 1em;
-}
-.uitklap details{
-	display: flex;
-
-	text-align:left;
-	margin-top:  2em;
-	
-
-	
-}
-
-
-.uitklap a{
-	margin-bottom: 1em;
-	margin-top: 1em;
-	list-style-type: none;
-	color: var(--footer-vragenkleur);
-	text-decoration: none;
-	margin-left: 1em;
-}
-.uitklap p{
-	font-size: 14px;
-	color: var(--footer-vragenkleur);
-}
-.uitklap h2{
-	color: var(--footer-vragenkleur);
-	margin-bottom: -1em ;
-}
-
-#buttonfooter{
-	background-color: var(--eftelingkleur);
-	text-decoration: none;
-	padding: 1em;
-	margin-right: 24em;
-	font-size: 16px;
-	border-radius: 0.5em;
-	width: 7em;
-	color: var(--color-background);
-	
-
-}
-.valid {
-    border: 2px solid green;
-}
-.invalid {
-    border: 2px solid red;
-}
-#error-message {
-    margin-top: 10px; /* Ruimte boven de foutmelding */
-    font-size: 14px; /* Grotere tekst voor de foutmelding */
-	color: var(--eftelingkleur);
-}
-#confirmation {
-    margin-top: 10px; /* Ruimte boven de bevestigingsmelding */
-    color: green; /* Groen voor bevestiging */
-}
-
-
-form {
-    margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	width: 95vw;
-	background-color: var(--color-background);
-}
-
-input[type="email"] {
-    padding: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-	
-}
-
-
-
-.media{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
-
-	
-}
-.media img{
-	margin: 0.5em;
-	width: 8em;
-}
-.prijzen{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: flex-start;
-	text-align:left;
-
-
-}
-
-.prijzen ul li{
-	list-style: none;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-	color: var(--footer-vragenkleur);
-	
-	
-	
-}
-.prijzen a{
-	text-decoration: none;
-	color: var(--footer-vragenkleur);
-
-}
-
-
-
-
-
-
-  
-	
-
-
-/* Main joris en de draak*/
 
 /* p en htjes*/
 body{
@@ -395,52 +337,40 @@ p{
 	font-family:"ff-ernestine-pro",sans-serif;
 	line-height: 1.75;
 	font-size: 16px;
-	
-	
-	
-
-	
 }
-
-
-
 h2{
 	font-family:"ff-ernestine-pro",sans-serif;
 	font-size: 1.2em;
 	margin-top: 2em;
 	margin-bottom: 0.2em;
 	color:var(--eftelingkleur);
-
 }
 h3{
 	font-family:"ff-ernestine-pro",sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	color:var(--eftelingkleur);
-
 }
+
 section{
 	position: relative;
 	display:flex;
 	flex-direction:column;
-	text-align: center;
-	
-	
+	text-align: center;	
 }
+
+/* Main joris en de draak*/
 /* joris en de draak vidoe met tekst er over heen */
 h1{
 	font-family:"ff-ernestine-pro",sans-serif,sans-serif;
 	font-size: 1.5em;
 	color:var(--color-background);
 	margin-bottom:-1em;
-
 }
 
 #myVideo {
     width: 100%;
     height: auto;
-	
-	
 }
 
 .tekstoverlay{
@@ -450,25 +380,22 @@ justify-content: center;
 flex-direction: column;
 z-index: 13;
 position: absolute;
-
-
 }
+
 #overlay{
 	font-family:"wreath",sans-serif;
 	color: var(--color-background);
 	font-size: 2em;
 	line-height: 1.5;
-	
 }
 
 /* content joris en de draak*/
 .columnjorisendraak{
 	display: grid;
-	grid-template-columns:1fr 1fr;
 	gap:1em;
 	width: 97vw;
-	
 }
+
 .columnjorisendraak img {
 	width: 100%;
 	height: auto;
@@ -478,41 +405,20 @@ position: absolute;
     grid-column:span 2;
 }
 
-
-
-
-
-
-
 /* content dat links staat*/
 .goedomteweten{
 	position: relative;
-	display:flex;
-	flex-direction:column;
 	text-align:start;
-	margin-left: 1em;
-
-	
-	
-
 }
 
 .goedomteweten ul{
-	display:grid;
-	grid-template-columns:1fr;
 	border: 2px solid var(--color-border);
-	background-color:var(--achtergrond-kleur);
+	background-color:var(--color-background);
 	border-radius: 0.5em ;
 	line-height: 2.5;
 	list-style-type: none;
-	
-	
-
-	
-
-
-
 }
+
 .goedomteweten li{
 	display: flex;
 	align-items: center;
@@ -520,69 +426,23 @@ position: absolute;
 	margin-left: -1em;
 	color: var(--footer-vragenkleur);
 }
+
 .goedomteweten img{
 	width: 2.5em;
 	margin-right: 1em;
-	
-	
 }
 
-
-	
-.linkscontent{
-	position: relative;
-	display:flex;
-	flex-direction:column;
-	text-align:start;	
-}
-.linkscontent h3{
-	color: var(--footer-vragenkleur);
-	font-size: 1em;
-	font-weight: bold;
-	
-
-}
-.linkscontent img{
-	margin: 0.5em;
-}
-.linkscontent ul{
-	line-height: 2em;
-}
-.linkscontent li{
-	display: flex;
-	align-items: center;
-	margin-left: -1em;
-	color: var(--footer-vragenkleur);
-	margin-left: -3em;
-}
-.linkscontent ul li img{
-	width: 1em;
-}
-.linkscontent a{
-	background-color: var(--color-background);
-	border:2px solid var(--color-border);
-	color: var(--eftelingkleur);
-	font-family:"ff-ernestine-pro",sans-serif;
-	padding:0.5em;
-	border-radius: 0.5em;
-	text-decoration: none;
-	font-weight: bold;
-	
-	
-
-}	
 
 /*download app*/
 .downloadapp{
-	display: flex;
-	flex-direction:column;
 	align-items: start;
 	text-align: start;
-
 }
+
 .downloadapp img{
 	width: 100%;
 }
+
 .downloadapp a{
 	background-color:var(--color-background);
 	border:2px solid var(--color-border);
@@ -592,58 +452,48 @@ position: absolute;
 	border-radius: 0.5em;
 	text-decoration: none;
 	font-weight: bold;
-	
-
-
 }
+
 /* Kaart*/
-
-
 .kaart {
-	width: 100%;
 	position: relative;
 	text-align: left;
 }
+
 .kaart a{
 	color: var(--color-text);
 }
 
-
 .img-div {
 	margin-left: -3em;
-    width:100vw ; /* Zorg ervoor dat de div de volledige breedte gebruikt */
-    overflow: scroll; /* Schakelt scrollen in */
-    position: relative; /* Positionering voor eventuele absolute elementen binnenin */
-    height: 550px; /* Zet een vaste hoogte voor het scrollbare gebied */
+    width:100vw ; 
+    overflow: scroll; 
+    position: relative; 
+    height: 550px;
   
 }
 
-	
-
-
 #efteling-map {
-    width: auto; /* Laat de afbeelding zijn verhoudingen behouden */
-    height: auto; /* Laat de afbeelding zijn verhoudingen behouden */
-    max-width: none; /* Voorkom dat de afbeelding wordt beperkt door max-width */
+    width: auto; 
+    height: auto;
+    max-width: none;
 }
-.info {
-    display: none; /* Standaard verbergen */
-    position: absolute; /* Absolute positionering voor overlay */
-    bottom: 10px; /* Plaatsing onderaan de kaart */
-    left: 10px; /* Plaatsing vanaf de linkerkant */
-    background-color:var(--color-background); /* Lichte achtergrond met transparantie */
-    padding: 10px;
-    width: calc(100% - 20px); /* Breedte minus padding */
-    z-index: 10; /* Zorg ervoor dat de overlay boven de kaart staat */
 
-    
-	
-	
+.info {
+    display: none; 
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color:var(--color-background);
+    padding: 10px;
+    width: calc(100% - 20px);
+    z-index: 10;	
 }
+
 .info div{
 	display: flex;
-    flex-direction: column; /* Plaatst de h3 en p onder elkaar */
-    text-align: left; /* Centreert de tekst verticaal */
+    flex-direction: column;
+    text-align: left;
 	padding: 0.5em;
 }
 
@@ -653,11 +503,13 @@ position: absolute;
 	color: var(--footer-vragenkleur);
 	margin: 0;
 }
+
 .info div p{
 	font-size: 14px;
 	margin: 0;
 
 }
+
 .info a{
 	color: var(--footer-vragenkleur);
 }
@@ -667,8 +519,6 @@ position: absolute;
     height: auto;
 	display: block;
 	float: left;
-    
-	
 }
 
 /* Atracties */
@@ -688,17 +538,7 @@ position: absolute;
 .carrousel ul li img{
 	width: 17em;
 	border-radius:0.5em;
-
 }
-
-
-
-
-
-
-
-
-
 
 /* Bezoekers met een bepering paginaa */
 
@@ -712,18 +552,14 @@ position: absolute;
 font-family:"wreath",sans-serif;
 font-size: 2em;
 text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
-
-
 }
+
 .bezoekersbeperking img{
     height: 17em;
 	position: relative;
 	object-fit: cover;
 	filter: brightness(0.7);
-
-
 }
-
 
 .Gasnelnaarlijst{
 	text-align: left;
@@ -731,26 +567,23 @@ text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 	background-color: white;
 	border-radius: 0.5em ;
 	line-height: 2.5;
-
 }
+
 .Gasnelnaarlijst h2{
 	font-size: 16px;
 	margin-top: 1em;
 	margin-left: 1em;
 }
+
 .Gasnelnaarlijst a{
 	color: var(--footer-vragenkleur);
 }
 
-
-
-
 .atractietoegang img{
 	width: 100%;
     height: auto;
-	
-
 }
+
 .atractietoegang div{
 left:1em; right:1em; top:1em; bottom:1em;
 display: flex;
@@ -758,13 +591,14 @@ flex-direction: column;
 justify-content: center;
 z-index: 13;
 position: absolute;
-
 }
+
 .atractietoegang h3{
 	color: var(--color-background);
 	font-size: 1.5em;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 }
+
 .atractietoegang a{
 	background-color: transparent;
 	border:2px solid white;
@@ -773,12 +607,8 @@ position: absolute;
 	padding:1em;
 	border-radius: 0.5em;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
-	
 	text-decoration: none;
-	
 }
-
-
 
 /* foto met tekst */
 .carrousel-2 ul{
@@ -787,25 +617,24 @@ position: absolute;
 	overflow-x: auto;
 	gap: 2em;
 }
+
 .carrousel-2{
 	text-align: left;
 }
-
 
 .carrousel-2 ul li{
 	width: 100vw;
 	list-style: none;
 }
+
 .carrousel-2 img{
 	width: 26em;
-	
 }
+
 .carrousel-2 li:first-child img {
 	width: 26em;
 	margin-left: -2.5em;
-	
 }
-
 
 .carrousel-2 a{
 	background-color: white;
@@ -817,9 +646,8 @@ position: absolute;
 	text-decoration: none;
 	font-weight: bold;
 	margin-right: 12em;
-	
-
 }
+
 .bezoekplannen div{
 left:1em; right:1em; top:1em; bottom:1em;
 display: flex;
@@ -828,37 +656,78 @@ flex-direction: column;
 z-index: 13;
 position: absolute;
 color: var(--color-background);
-
-
-
-
 }
+
 .bezoekplannen h2{
 	color: var(--color-background);
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 	font-size: 1.1em;
 	font-family:"ff-ernestine-pro",sans-serif ;
 	line-height: 1.5;
-
 }
+
 .bezoekplannen p{
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 }
+
 .bezoekplannen a{
 	background-color: transparent;
 	border:2px solid white;
 	color: var(--color-background);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding: 1em;
-	
-	
 	border-radius: 0.5em;
 	text-decoration: none;
 }
+
 .bezoekplannen img{
 	filter: brightness(0.7);
-
 }
+
+/* linkscontent*/
+.linkscontent{
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	text-align:start;	
+}
+
+.linkscontent h3{
+	color: var(--footer-vragenkleur);
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.linkscontent img{
+	margin: 0.5em;
+}
+
+.linkscontent ul{
+	line-height: 2em;
+}
+
+.linkscontent li{
+	display: flex;
+	align-items: center;
+	margin-left: -1em;
+	color: var(--footer-vragenkleur);
+	margin-left: -3em;
+}
+
+.linkscontent ul li img{
+	width: 1em;
+}
+
+.linkscontent a{
+	background-color: var(--color-background);
+	border:2px solid var(--color-border);
+	color: var(--eftelingkleur);
+	font-family:"ff-ernestine-pro",sans-serif;
+	padding:0.5em;
+	border-radius: 0.5em;
+	text-decoration: none;
+	font-weight: bold;
+}	
 
 
 
