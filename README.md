@@ -221,7 +221,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - wel opletten  op spelling fouten
   - logo efteling: ongelabeld
   - door naviagtie gaat wat makkelijker omdat de teks in een uitklap zit en als je daar niet door heen wil kan je dat makkelijker skippen 
-  -footer veel infos maar volgensij niet heel storend, maar ga kijken  of ik het kan verbeteren
+  -footer veel infos maar volgensij niet heel storend, maar ga kijken  of ik het kan verbeteren of labele
   - twijfeld of kopjes in menu h2's zijn
   
   screentest pagina bezoekers met een beperking:
@@ -294,19 +294,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  joris en de draak:
+  <img src="readme-images/ikjoris.PNG" width="375px" alt="top">
+
+  bezoekers met een beperking:
+  <img src="readme-images/toegangik.PNG" width="375px" alt="top">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
+  - Dark en light mode
+  <img src="readme-images/darkmode.PNG" width="375px" alt="top">
+  <img src="readme-images/darkmode2.PNG" width="375px" alt="top">
+  
+  - hoe je een interactieve kaart maakt
+  <img src="readme-images/kaart.PNG" width="375px" alt="top">
+  - beetje animatie
+  - veel nieuwe codes
+  - display grid
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
+  - de animatie met de schild
+  <img src="readme-images/schild.jpg" width="375px" alt="top">
+  - sommige stijling
+  <img src="readme-images/footer.jpg" width="375px" alt="top">
+  - hamburger menu animeren naar kruisje 
   Korte omschrijving met plaatjes
+  <img src="readme-images/menu.jpg" width="375px" alt="top">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  
 </details>
 
 
