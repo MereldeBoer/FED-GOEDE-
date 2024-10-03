@@ -93,10 +93,12 @@ header button img {
 	margin-bottom: 1.3em;
 	
 	
+	
   }
 
 nav button {
-	justify-self:start;
+	justify-self:end;
+	margin-right: 1em;
    }
 
 nav {
