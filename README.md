@@ -325,6 +325,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - hamburger menu animeren naar kruisje 
   Korte omschrijving met plaatjes
   <img src="readme-images/menu.jpg" width="375px" alt="top">
+  -logo van efteling en header img in darkmode wit maken
 
   
 </details>
