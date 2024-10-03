@@ -335,6 +335,9 @@ content (foto's en video)
   1. bron 1 (voor hamburger menu en dark licght mode): https://dlo.mijnhva.nl/d2l/le/content/609314/Home
   2. bron 2 (moeilijkere stukken codering bijvoorbeeld de kaart en fmormulier states): https://chatgpt.com
   3. bron 3 coords map: https://www.fla-shop.com/image-map/
+
+  fonts:
+  1. bron 1: adobe fonts (kan niet link wnat dat vond github niet zo leuk)
   
 
 </details>
