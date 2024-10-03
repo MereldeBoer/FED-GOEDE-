@@ -563,8 +563,8 @@ text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
 
 .Gasnelnaarlijst{
 	text-align: left;
-	border: 2px solid #ede5d5;
-	background-color: white;
+	border: 2px solid var(--color-border);
+	background-color: var(--color-background);
 	border-radius: 0.5em ;
 	line-height: 2.5;
 }
@@ -601,7 +601,7 @@ position: absolute;
 
 .atractietoegang a{
 	background-color: transparent;
-	border:2px solid white;
+	border:2px solid var(--color-background);
 	color: var(--color-background);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:1em;
@@ -637,8 +637,8 @@ position: absolute;
 }
 
 .carrousel-2 a{
-	background-color: white;
-	border:2px solid #ede5d5;
+	background-color: var(--color-background);
+	border:2px solid var(--color-border);
 	color: var(--eftelingkleur);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding:0.5em;
@@ -672,7 +672,7 @@ color: var(--color-background);
 
 .bezoekplannen a{
 	background-color: transparent;
-	border:2px solid white;
+	border:2px solid var(--color-background);
 	color: var(--color-background);
 	font-family:"ff-ernestine-pro",sans-serif;
 	padding: 1em;

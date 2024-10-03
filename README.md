@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   blauw/rood(kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface plane
  
 </details>
 
@@ -38,7 +38,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://www.efteling.com/nl
 
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Bezoekers met een beperking
@@ -140,11 +140,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Dit sowieso bespreken: Of html structuur goed is
+  als er tijd is: mag berbruik van divtjes
+  nog een punt: hoe animatie
+
 
 
   ### Verslag van meeting
@@ -153,7 +152,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Html zag er goed uit
   - icoon die beweegt in span element handig
   - div mag in article als het echt niet anders kan
-  -site ASIDE
+  - site ASIDE
 
 </details>
 
@@ -186,11 +185,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Dit sowieso bespreken: kijken of css en html goed is, hoe ik de css korter en bondiger kan maken zonder overbodige codes
+
+  als er tijd is: Vragen hoe speciefiek de stijling moet lijken op de orgineel
+  nog een punt: vragen over animeren en de kaart
 
 
   ### Verslag van meeting
@@ -273,11 +271,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Dit sowieso bespreken: kijken of de codes goed zijn vragen waarom java het niet doet. Wanneer verdoet iets aan een surface plan?
+  als er tijd is: sommige afbeeldingen kom ik niet aan hoe los ik dta op?
+  nog een punt: Tips voor animeren
 
 
   ### Verslag van meeting
@@ -337,7 +333,7 @@ content (foto's en video)
   3. bron 3 coords map: https://www.fla-shop.com/image-map/
 
   fonts:
-  1. bron 1: adobe fonts (kan niet link wnat dat vond github niet zo leuk)
+  1. bron 1: adobe fonts (kan niet link want dat vond github niet zo leuk)
   
 
 </details>
