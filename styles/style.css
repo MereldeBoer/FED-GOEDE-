@@ -268,18 +268,21 @@ input[type="email"] {
 }
 
 .uitklap details{
-	display: flex;
-	text-align:left;
+	
+	
 	margin-top:  2em;	
 }
 
-.uitklap a{
+.uitklap details a{
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 1em;
 	margin-top: 1em;
 	list-style-type: none;
 	color: var(--footer-vragenkleur);
 	text-decoration: none;
 	margin-left: 1em;
+	
 }
 
 .uitklap p{
